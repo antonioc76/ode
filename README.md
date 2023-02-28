@@ -2,7 +2,7 @@ In Numerical_Methods there are 3 automated versions of numerical methods used fo
 
 To use these, you need to have python installed. Save the python file or files to your computer, right click on the one you want to use and select "edit with IDLE". Then, replace all instances of the expression for the differential with the expression for YOUR particular differential.
 
-![](git@github.com:antonioc76/ode.git/Images/[main]/edit with IDLE.bmp?raw=true)
+![](git@github.com:antonioc76/ode.git/Images/[main]/edit_with_IDLE.bmp?raw=true)
 
 For example, if my differential is dy/dx = 2xy^2, then I need to replace every expression with 2 * x * y**2.
 
