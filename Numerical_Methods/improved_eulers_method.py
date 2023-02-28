@@ -1,8 +1,8 @@
 #! python
 import math
 
-# initial conditions, your step incriment,
-# what point you wanna estimate, and whether or not you want to show each step
+# initial conditions, your step increment,
+# what point you want to estimate, and whether you want to show each step (bool)
 def improved_eulers(xo, yo, h, evaluate, show):
     steps = math.ceil((evaluate - xo) / h)
     

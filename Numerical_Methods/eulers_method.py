@@ -1,8 +1,8 @@
 #! python
 import math
 
-# initial conditions, your step incriment,
-# what point you wanna estimate, and whether or not you want to show each step
+# initial conditions, your step increment,
+# what point you want to estimate, and whether you want to show each step (bool)
 def eulers_method(xo, yo, h, evaluate, show):
     steps = math.ceil((evaluate - xo) / h)
     
@@ -18,7 +18,7 @@ def eulers_method(xo, yo, h, evaluate, show):
                 print(f"when n = {n}")
                 print(f" x = {x},y = {y}")
 
-        #nexty = lasty + step*f(lastx, lasty) INPUT FUNCTION
+        #nexty = lasty + h*f(lastx, lasty) INPUT FUNCTION
         try:
             y = y + (h*(2*x*(y**2)))
         except OverflowError as e:
