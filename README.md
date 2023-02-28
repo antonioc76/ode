@@ -18,13 +18,13 @@ Note: the improved eulers method involves function calls with x and u as well. T
 
 Once you have replaced these expressions with your own, save the file, then press f5 on your keyboard or select "run -> run module" at the top of your IDLE window. This will open the python terminal and run the file.
 
-![](Images/run_module)
+![](Images/run_module.bmp)
 
 After the file has been run, begin typing the name of the method you're using into the terminal followed by an open parenthesis. Do not press enter.
 
 For example if I have just run "eulers_method" I'll begin by typing "eulers_method(" (without the quotes) into the terminal.
 
-![](Images/begin_typing)
+![](Images/begin_typing.bmp)
 
 The terminal should show you a prompt "xo, yo, h, evaluate, show"
 
@@ -32,4 +32,4 @@ Inside the parentheses, type your initial x and y values, your step size h, the 
 
 For example, if my initial condition is y(0) = 1, and I want to use eulers method to estimate y(.5) with a step size of .25, and show each step, I would type eulers_method(0,1,.25,.5,True) into the terminal and press enter.
 
-![](Images/eulers_method_example)
+![](Images/eulers_method_example.bmp)
